@@ -1,4 +1,0 @@
-<resources>
-    <string name="app_name">CRM</string>
-     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">(Add_Your_Api_Key)</string>
-</resources>
