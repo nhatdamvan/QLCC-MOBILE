@@ -1,0 +1,1 @@
+export {default as HomeTabSearchScreen} from './HomeTabSearchScreen';

@@ -1,0 +1,1 @@
+export {default as HomeTabScreenStyle} from './HomeTabScreenStyle';

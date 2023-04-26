@@ -1,0 +1,141 @@
+.glyphicons-list {
+list-style:none;
+padding:0;
+}
+
+.glyphicons-list li {
+display:inline-block;
+float:left;
+width:12.5%;
+height:115px;
+background-color:#f8f8f8;
+border:1px solid #fff;
+transition:.3s ease;
+padding:10px;
+}
+
+.glyphicons-list li:hover {
+background-color:#eee;
+}
+
+.glyphicons-list .glyphicon {
+display:block;
+text-align:center;
+font-size:25px;
+color:#222;
+}
+
+.glyphicons-list .glyphicon-class {
+display:block;
+text-align:center;
+margin-top:10px;
+line-height:16px;
+font-size:13px;
+}
+
+.fa-page-header {
+font-size:20px;
+padding-bottom:15px;
+border-bottom:1px solid #f1f1f1;
+}
+
+.fontawesome-icon-list .fa-hover {
+margin-bottom:5px;
+transition:.3s ease;
+}
+
+.fontawesome-icon-list .fa-hover:hover {
+background-color:#f8f8f8;
+}
+
+.fontawesome-icon-list .fa-hover .fa {
+width:25px;
+color:#222;
+}
+
+.prism-languages {
+list-style:none;
+margin:20px 0;
+padding:0;
+}
+
+.prism-languages li {
+width:33.3333%;
+float:left;
+}
+
+.prism-languages li code {
+margin-left:8px;
+}
+
+.window-content .btn {
+margin-bottom:6px;
+}
+
+
+/* css for tab section */
+.android-tab{
+	font-size: 18px;
+}
+
+/* css for tabs header menutab  */
+.tab-section{
+	margin: 30px 0;
+}
+.nav-tabs{
+	border: none !important;
+	padding: 20px;
+}
+.my-tab-pan h3{
+	font-size: 20px;
+    font-weight: 500;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #4e54c8 !important;
+    border: 0 !important;
+    color: #fff !important;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li>a {    
+    color: #6d6d6d;
+}.nav-tabs>li>a:hover {
+    border-color: #eee #eee #ddd;
+}
+#android h3, #window-android h3, #linux-android h3, #window-ios h3, #linux-android h3, #ios h3, #linux-android h3, #linux-ios h3{
+	padding: 20px 0;
+	font-weight: 500;
+	font-size: 22px;
+	margin: 0;
+}
+.nav-tabs>li>a {
+    margin-right: 10px !important;
+    line-height: 1.42857143;
+    border: 1px solid #ccc !important;
+    border-radius: 2px !important;
+}
+/* css for unsupported on ios */
+.unsuppoted-box{
+	background: #fff9d8;
+	padding: 10px;
+}
+/* css end of yab section */
+
+
+
+
+
+
+
+@media max-width767px{
+.glyphicons-list li {
+width:25%;
+}
+}
+
+@media max-width991px{
+.prism-languages li {
+width:50%;
+}
+}

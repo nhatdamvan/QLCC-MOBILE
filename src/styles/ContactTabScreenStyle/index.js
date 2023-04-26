@@ -1,0 +1,1 @@
+export {default as ContactTabStyle} from './ContactTabStyle';
